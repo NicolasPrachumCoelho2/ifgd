@@ -1,0 +1,54 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  text-align: center;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #2e8b57;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2e8b57;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #246e46;
+}
+
+.opcao-btn {
+  display: block;
+  margin: 8px auto;
+  width: 80%;
+}
+
+#mensagem {
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+#dica-texto {
+  color: #555;
+  font-style: italic;
+}
