@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Créditos</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      color: white;
+      text-align: center;
+      height: 100vh;
+      background: linear-gradient(-45deg, #3a7bd5, #00d2ff, #7ed957, #00c9a7);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      width: 90%;
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .credits, .objectives {
+      margin: 20px 0;
+    }
+
+    .objective-item {
+      margin: 5px 0;
+      text-align: left;
+    }
+
+    .menu-button {
+      background-color: #3498db;
+      color: white;
+      padding: 15px 30px;
+      margin: 10px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .menu-button:hover {
+      background-color: #2980b9;
+      transform: scale(1.1);
+    }
+
+    .button-container {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Créditos</h1>
+
+    <div class="credits">
+      <p><strong>Orientadora:</strong> Regiane Heil Plem</p>
+      <p><strong>Desenvolvedor:</strong> Nicolas Prachum Coelho</p>
+    </div>
+
+    <div class="objectives">
+      <h2>Objetivos</h2>
+      <div class="objective-item">1. Entender como o campo e a cidade se ajudam.</div>
+      <div class="objective-item">2. Valorizar as tradições do campo e da cidade.</div>
+      <div class="objective-item">3. Aprender brincando sobre essa conexão.</div>
+    </div>
+
+    <div class="button-container">
+      <a href="https://pagina-principal-fawn.vercel.app/" class="menu-button">Voltar</a>
+    </div>
+  </div>
+
+</body>
+</html>
